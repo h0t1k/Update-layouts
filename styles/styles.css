@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+body {
+  font-family: Inter;
+  font-style: normal;
+  font-size: 18px;
+  background-color: #efeff2;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1920px;
+  padding: 0px 240px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header__menu {
+  display: flex;
+  padding: 36px 0px 140px;
+}
+.header__menu-logo {
+  display: flex;
+  margin-right: 68px;
+  align-items: center;
+  gap: 14px;
+}
+.header__logo {
+  width: 42px;
+  height: 36px;
+}
+.header__logo-text {
+  color: #19191c;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: normal;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  margin-right: 560px;
+}
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+.header__nav-item {
+  color: #19191c;
+  font-weight: 600;
+}
+.header__nav-item:hover {
+  transform: scale(1.2);
+  transition: 0.9s;
+}
+.header__nav-link {
+  color: #19191c;
+  transition: 0.9s;
+}
+.header__nav-link:hover {
+  color: rgb(158, 227, 227);
+  transition: 0.9s;
+}
+.header__icon {
+  width: 16px;
+  height: 10px;
+}
+.header__menu-right {
+  display: flex;
+  align-items: center;
+}
+.header__right-list {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+}
+.header__right-item {
+  color: #19191c;
+  font-weight: 600;
+}
+.header__btn {
+  color: #efeff2;
+  font-weight: 700;
+  line-height: normal;
+  background: #19191c;
+  width: 154px;
+  height: 46px;
+  border: none;
+  box-shadow: #0a0a46 5px 5px 10px;
+}
+.header__btn:hover {
+  transform: scale(0.8) rotate(-20deg);
+  transition: 0.7s;
+}
+
+.logo {
+  width: 42px;
+  height: 36px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.link {
+  color: #19191c;
+  text-decoration: none;
+}
+
+.icon {
+  width: 16px;
+  height: 10px;
+}
+
+.hero__wrapper {
+  max-width: 1920px;
+  padding-left: 240px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+}
+.hero__content-left {
+  max-width: 648px;
+}
+.hero__content-descr {
+  padding-bottom: 8px;
+  border-bottom: 3px solid #504dee;
+}
+.hero__content-text {
+  color: #19191c;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  margin-top: 32px;
+  margin-bottom: 4px;
+}
+.hero__content-title {
+  margin-bottom: 48px;
+  font-weight: 800;
+  font-size: 58px;
+}
+.hero__content-subtitle {
+  max-width: 648px;
+  margin-bottom: 50px;
+  color: #19191c;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+.hero__content-button {
+  width: 142px;
+  height: 54px;
+  color: #fbfbfc;
+  font-weight: 700;
+  line-height: normal;
+  background: #504dee;
+  border: 0;
+  box-shadow: #504dee 5px 5px 20px;
+  transition: 1s;
+  margin-bottom: 110px;
+}
+.hero__content-button:hover {
+  transform: scale(1.1);
+  color: #19191c;
+}
+.hero__content-bottom {
+  margin-bottom: 8px;
+}
+.hero__descr-date {
+  margin-right: 12px;
+}
+.hero__content-right {
+  max-width: 1043px;
+  height: 832px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.hero__button-proto {
+  margin-left: 430px;
+  margin-bottom: 20px;
+  width: 147px;
+  height: 54px;
+  border: 2px solid #19191c;
+}
+.hero__image {
+  position: absolute;
+  right: 0px;
+  bottom: 122px;
+  z-index: 4;
+}
+.hero__bg-blue {
+  position: absolute;
+  right: 240px;
+  bottom: 122px;
+}
+.hero__button-line {
+  display: flex;
+  gap: 340px;
+  margin-left: 204px;
+  margin-bottom: 128px;
+}
+.hero__button-miro {
+  width: 112px;
+  height: 54px;
+  border: 2px solid #19191c;
+}
+.hero__button-invision {
+  width: 143px;
+  height: 54px;
+  border: 2px solid #19191c;
+}
+.hero__button-photoshop {
+  margin-left: 168px;
+  margin-bottom: 84px;
+  width: 169px;
+  height: 54px;
+  border: 2px solid #19191c;
+}
+.hero__button-figma {
+  margin-bottom: 123px;
+  width: 126px;
+  height: 54px;
+  border: 2px solid #19191c;
+}
+.hero__button-illustrator {
+  margin-left: 36px;
+  width: 158px;
+  height: 54px;
+  border: 2px solid #19191c;
+}
+
+.descr {
+  color: #19191c;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title {
+  color: #19191c;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=styles.css.map */
