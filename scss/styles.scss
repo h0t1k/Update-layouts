@@ -518,3 +518,92 @@ body {
 .right-coast {
   margin-top: 97px;
 }
+
+.footer {
+  background: #19191c;
+  padding: 60px 0px;
+
+  &__container {
+    display: flex;
+    padding-bottom: 100px;
+  }
+
+  &__menu-logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__logo-link {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: #fbfbfc;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 48px;
+  }
+
+  &__logo {
+    max-width: 42px;
+    height: 36px;
+  }
+
+  &__email,
+  &__tel {
+    color: #fbfbfc;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 28px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    margin-left: 146px;
+  }
+
+  &__list {
+  }
+
+  &__item-title {
+    font-size: 18px;
+    color: #fbfbfc;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 28px;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  &__item-link {
+    color: #efeff2;
+    text-decoration: none;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+  }
+
+  &__copyright {
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+  }
+
+  &__copyright-policy,
+  &__copyright-rights {
+    color: #6d6d77;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+  }
+}
